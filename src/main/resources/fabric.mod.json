@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "placeholder4emoji",
+  "version": "${version}",
+  "name": "PlaceHolder4Emoji",
+  "description": "Emoji placeholders for Placeholder API: %p4e:weather% (icon), %p4e:weather_cn% (Chinese text), %p4e:moon_phase% (moon emoji)",
+  "authors": [
+    "LittleCircleOO"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.littlecircleoo.placeholder4emoji.Placeholder4emoji"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "placeholder-api": "*"
+  }
+}
